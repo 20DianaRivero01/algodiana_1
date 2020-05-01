@@ -1,6 +1,7 @@
 #include <stdlib.h>
+
 #include <stdio.h>
-//prime numbers containing a number, a prime number is a number that is divisible by itself and by one.
+ //prime numbers containing a number, a prime number is a number that is divisible by itself and by one
 int main(int argc, char ** argv) {
     int i, j, divisores; //i will be the numbers in the number entered, j is the test of the factors that can be divided into i
     int finish = atoi(argv[1]); //I save my argument in the finish variable
@@ -20,4 +21,3 @@ int main(int argc, char ** argv) {
     printf("\n");
     return 0;
 }
-
